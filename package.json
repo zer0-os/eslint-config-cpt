@@ -1,5 +1,5 @@
 {
-  "name": "@zero-tech/cpt-eslint-config",
+  "name": "@zero-tech/eslint-config-cpt",
   "version": "0.1.0",
   "description": "Shared eslint config for all modules of CPT",
   "author": "Zero CPT",
