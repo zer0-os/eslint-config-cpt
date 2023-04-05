@@ -1,0 +1,11 @@
+{
+  "name": "@zero-tech/cpt-eslint-config",
+  "version": "0.1.0",
+  "description": "Shared eslint config for all modules of CPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
