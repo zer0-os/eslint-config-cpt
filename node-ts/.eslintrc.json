@@ -240,6 +240,7 @@
     "no-unused-labels": "error",
     "no-var": "error",
     "object-shorthand": "error",
+    "object-curly-spacing": "error",
     "one-var": [
       "error",
       "never"
