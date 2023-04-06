@@ -48,7 +48,6 @@
         }
       }
     ],
-    "@typescript-eslint/class-name-casing": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "error",
     "@typescript-eslint/explicit-member-accessibility": [
@@ -120,7 +119,10 @@
       "error",
       "as-needed"
     ],
-    "camelcase": "error",
+    "camelcase": [
+      "error",
+      { "allow": ["(__factory)$"] }
+    ],
     "comma-dangle": [
       "error",
       "always-multiline"
@@ -148,7 +150,6 @@
     "id-match": "error",
     "import/no-extraneous-dependencies": "off",
     "import/no-internal-modules": "off",
-    "import/no-unassigned-import": "error",
     "import/order": "off",
     "jsdoc/check-alignment": "error",
     "jsdoc/check-indentation": "error",
@@ -283,9 +284,7 @@
             "parameter",
             "property-declaration",
             "member-variable-declaration",
-            "call-signature",
-            "arrow-call-signature",
-            "arrow-parameter"
+            "call-signature"
           ],
           "whitespace": [
             true,
