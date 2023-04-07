@@ -98,13 +98,6 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
-"@typescript-eslint/eslint-plugin-tslint@^5.57.1":
-  version "5.57.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-5.57.1.tgz#6a78f2730e225d0b030a428a20a3ba4fbf955d2e"
-  integrity sha512-hE3vbcAFKRiYqQ6vEPPSbSt73S35am/A6rkX8UHEnr7Kj7oIf35uKJqrapH5LbZ+M/JPX+QVfCQGhJmIHTwOmQ==
-  dependencies:
-    "@typescript-eslint/utils" "5.57.1"
-
 "@typescript-eslint/eslint-plugin@^5.57.1":
   version "5.57.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.57.1.tgz#d1ab162a3cd2671b8a1c9ddf6e2db73b14439735"
