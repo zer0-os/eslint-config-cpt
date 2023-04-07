@@ -2,7 +2,9 @@
   "env": {
     "node": true
   },
-  "extends": [],
+  "extends": [
+    "plugin:@typescript-eslint/recommended"
+  ],
   "ignorePatterns": [],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -11,7 +13,6 @@
   },
   "plugins": [
     "@typescript-eslint/eslint-plugin",
-    "@typescript-eslint/eslint-plugin-tslint",
     "eslint-plugin-jsdoc",
     "eslint-plugin-prefer-arrow"
   ],
@@ -268,38 +269,6 @@
     ],
     "spaced-comment": "error",
     "use-isnan": "error",
-    "valid-typeof": "off",
-    "@typescript-eslint/tslint/config": [
-      "error",
-      {
-        "rules": {
-          "match-default-export-name": true,
-          "one-line": [
-            true,
-            "check-open-brace",
-            "check-whitespace"
-          ],
-          "prefer-method-signature": true,
-          "typedef": [
-            true,
-            "parameter",
-            "property-declaration",
-            "member-variable-declaration",
-            "call-signature"
-          ],
-          "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-module",
-            "check-separator",
-            "check-type",
-            "check-typecast",
-            "check-preblock"
-          ]
-        }
-      }
-    ]
+    "valid-typeof": "off"
   }
 }
