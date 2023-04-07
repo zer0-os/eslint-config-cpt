@@ -11,20 +11,19 @@
   "scripts": {
     "test": "test"
   },
-  "peerDependencies":{
+  "peerDependencies": {
     "typescript": "^5.0.2"
   },
   "dependencies": {
-    "typescript": "^5.0.2",
-    "eslint": "^8.37.0",
-    "tslint": "^6.1.3",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
     "@typescript-eslint/eslint-plugin-tslint": "^5.57.1",
-    "eslint-plugin-jsdoc": "^40.1.1",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.1.1",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "typescript": "^5.0.2"
   }
 }
