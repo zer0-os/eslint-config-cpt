@@ -103,7 +103,7 @@
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/quotes": [
       "error",
-      "single"
+      "double"
     ],
     "@typescript-eslint/semi": [
       "error",
