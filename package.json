@@ -1,6 +1,6 @@
 {
   "name": "@zero-tech/eslint-config-cpt",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Shared eslint config for all modules of CPT",
   "author": "Zero CPT",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsdoc": "^40.1.1",
+    "eslint-plugin-jsdoc": "^50.3.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "typescript": "^5.0.2"
   }
